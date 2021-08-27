@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  background-image: url('black-and-white.jpg');
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+<div id="navbar">
+  <a href="#F1">Inicio</a>
+<a href="#F2">História da Empresa</a>
+<a href="#F3">Nossos Funcionários</a>
+<a href="#F4">Nosso Produto</a>
+<a href="#F5">Localização e Contato</a>
+</div>
+
+
+  <h1 id="F1">FURIA</h1>
+<p><img src="FURIA_Esportslogo.png" width="210" height="200"></p>
+<i>Nossa empresa tem foco principal em ajudar pessoas que têm peixes em casa mas nem sempre tem tempo<br> para alimentá-los , então elaboramos um pequeno aparelho para resolver esses pequenos problemas.</i>
+
+<hr>
+
+<h2 id="F2">História da Empresa</h2>
+<p><i>No ano de 2018 Eduardo teve a ideia de criar algo simples mas que consiga ajudar pessoas que gostam de peixes e<br> tem pelo menos um em casa mas nem sempre tem tempo de alimentá-los, com isso ele pensou em criar uma<br> pequena caixa que ficará no aquário e soltará ração em diferentes periodos.</i></p>
+
+<p><i>Mas só em 2019 ele tomou iniciativa, mas não iria conseguir fazer sozinho, com isso decidiu montar uma equipe com<br> alguns dos seus amigos, e decidiram nomeá-la de <b>FURIA</b>, com isso começaram a produzir.</i></p> 
+
+<p><i>Após 2 anos produzindo e testando o produto finalmente conseguiram chegar ao resultado final e colocaram à venda<br> nas maiores lojas de animais do Brasil.</i></p>
+
+<hr>
+
+<h2 id="F3">Nossos Funcionários</h2>
+<p><b>CEO:</b> <i>Eduardo de Paula Fraga Geronymo</i><br> 
+19/01/1995 - 26 anos </p> 
+
+<p><b>Gerente de vendas:</b> <i>João Gabriel de Bortoli Ribeiro</i> <br>
+24/03/1998 - 23 anos </p>
+
+<p><b>Maker:</b> <i>Pedro Alvarez Certo</i><br> 
+21/03/1995 - 26 anos </p>
+
+<p><b>Setor Financeiro:</b> <i>Matheus Luca de Oliveira Abreu</i><br>
+07/11/1997 - 24 anos</p>
+
+<hr>
+
+<h2 id="F4">Nosso Produto</h2>
+<p><img src="https://cdn.discordapp.com/attachments/694549159365312512/880772901937221682/unknown.png" width="500" height="400"></p>
+<i>Criamos um pequeno protótipo de caixa chamado “Sentinela” que ficará em seu aquário e tem intuito de cuidar da alimentação do seu peixe,<br> ele é programável para  soltar ração em diferentes períodos do dia, com isso você não precisará se preocupar em esquecer<br> de alimentar seu peixe.</i>
+
+<hr>
+
+<h2 id="F5">Localização e Contato</h2>
+
+<b>Números da empresa:</b><br>
+- <b>Loja Física:</b><a href="tel:+5573983530"> +55 7398-3530</a><br>
+- <b>Whatsapp:</b><a href=" https://api.whatsapp.com/send?phone=5511963835793">+55 11 96383-5793</a><br>
+<p><b>Endereço:</b> R. Tito, 1175 - Lapa, São Paulo - SP, 05051-001<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1829.0587195843298!2d-46.704021487432385!3d-23.528278124428613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef87be9b4a67b%3A0x3f540d569f55451!2sR.%20Tito%2C%201175%20-%20Vila%20Romana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005051-000!5e0!3m2!1spt-BR!2sbr!4v1629916965292!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+
+</body>
+</html>
